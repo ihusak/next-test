@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button {
+    font-size: 30px;
+    text-transform: uppercase;
+  }
+}
+.icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  svg {
+    color: #bbbbbb;
+    margin: 0 5px;
+    cursor: pointer;
+    &:hover {
+      color: #737373;
+    }
+  }
+}

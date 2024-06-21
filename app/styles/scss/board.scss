@@ -1,0 +1,30 @@
+.main-template {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .game-field {
+    display: flex;
+    flex-wrap: wrap;
+    .item {
+      border-radius: 4px;
+      flex: 0 0 36px;
+      height: 36px;
+      margin: 2px;
+      cursor: pointer;
+      &:hover {
+        opacity: .9;
+      }
+      &.pending {
+        background: #ffd500 !important;
+      }
+      &.user {
+        background: #00a550 !important;
+        cursor: not-allowed;
+      }
+      &.computer {
+        background: #a50000 !important;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
